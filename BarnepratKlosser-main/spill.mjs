@@ -25,7 +25,7 @@ const astronaut1 = "bilder/astronaut1.png";
 const astronaut2 = "bilder/astronaut2.png";
 const flagg = "bilder/flagg.png"
 const ipadbredde = 1080;
-const ipadhøyde = 810;
+const ipadhøyde = 818;
 
 Start(bildeeks);
 
