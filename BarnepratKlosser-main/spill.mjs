@@ -24,6 +24,9 @@ const bakgrunnsbilde = "bilder/bakgrunnsbilde.png";
 const astronaut1 = "bilder/astronaut1.png";
 const astronaut2 = "bilder/astronaut2.png";
 const flagg = "bilder/flagg.png"
+const alienkort = "bilder/alienkort.png";
+const kraterkort = "bilder/kraterkort.png";
+const spørsmålskort = "bilder/spørsmålskort.png";
 const ipadbredde = 1080;
 const ipadhøyde = 818;
 
@@ -44,11 +47,26 @@ function scene2() {
 }
 
 function bildeeks()
-
 {
 
-// Å gjøre: Gi bedre navn til alle tingene.
-
 	const img2 = new Blocks.Image(bakgrunnsbilde, {x:0,y:0,width:ipadbredde,ipadhøyde});
-    const img3 = new Blocks.Image(astronaut1, {x:0,y:0,width:100,height:200});
+    const img3 = new Blocks.Image(astronaut1, {x:50,y:0,width:150,height:200});
+    const img4 = new Blocks.Image(astronaut2, {x:50,y:50,width:150,height:200});
+    const img5 = new Blocks.Image(flagg, {x:100,y:0,width:150,height:200});
+
+    
+    new Blocks.Text("Ånei! Astronauten krasjlandet på månen, og romskipet ble ødelagt. Nå trenger han deres hjelp til å samle delene til romskipet og fikse det. Men pass dere for romvesenet Spirri! Han vil nemlig også ha delene til romskipet. ", { style: "hvitTekst", x: 0, y: 0, width: 500, height: 200 });
+    const stjerne = new Blocks.Image("bilder/stjerne.png", {x:300,y:350,width:150,height:200});
+
+    Actions.Click(stjerne, () => {
+        GaaTil(spillside);
+    })
+
 }
+
+function spillside(){
+    const img2 = new Blocks.Image(bakgrunnsbilde, {x:0,y:0,width:ipadbredde,ipadhøyde});
+    const img6 = new Blocks.Image(alienkort, {x:600,y:50,width:500,height:600});
+    const img7 = new Blocks.Image(kraterkort, {x:250,y:50,width:500,height:600});
+    const img8 = new Blocks.Image(spørsmålskort, {x:-100,y:50,width:500,height:600});
+}    

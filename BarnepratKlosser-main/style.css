@@ -16,3 +16,10 @@
 .overskrift2 {
     color: greenyellow;
 }
+
+.hvitTekst{
+    color: white;
+    font-size:medium;
+    text-align: center;
+    /* her kan man endre font size og type */
+}
