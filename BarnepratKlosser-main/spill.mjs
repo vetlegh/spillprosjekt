@@ -226,7 +226,7 @@ function spørsmålsside9() {
     const cherry = new Blocks.Image("bilder/SpmSider/cherry.png", { x: 100, y: 400, width: 200, height: 200 })
     const eple = new Blocks.Image("bilder/SpmSider/eple.png", { x: 450, y: 425, width: 200, height: 200 })
     const drue = new Blocks.Image("bilder/SpmSider/drue.png", { x: 800, y: 425, width: 200, height: 200 })
-    new Blocks.Sound("lyder/drue.m4a", { loop: false, auto: true })
+    new Blocks.Sound("lyder/rosin.m4a", { loop: false, auto: true })
 
     svarAlternativ(cherry, eple, drue);
 }
