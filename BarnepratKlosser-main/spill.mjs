@@ -397,8 +397,8 @@ function spørsmålsside23() {
 
 function alienside() {
     const img2 = new Blocks.Image(bakgrunnsbilde, { x: 0, y: 0, width: ipadbredde, ipadhøyde });
-    const utf1 = new Blocks.Image("bilder/utfordringSider/utf1.png", { x: 300, y: -100, width: spmbredde, height: spmlengde })
-    const fullførtpil = new Blocks.Image("bilder/utfordringSider/fullførtpil.png", { x: 550, y: 100, width: spmbredde, height: spmlengde })
+    const utf1 = new Blocks.Image("bilder/UtfordringSider/utf1.png", { x: 300, y: -100, width: spmbredde, height: spmlengde })
+    const fullførtpil = new Blocks.Image("bilder/UtfordringSider/fullførtpil.png", { x: 550, y: 100, width: spmbredde, height: spmlengde })
     new Blocks.Sound("lyder/byttplass.m4a", { loop: false, auto: true })
     
     Actions.Click(fullførtpil, () => {
@@ -408,8 +408,8 @@ function alienside() {
 
 function alienside2() {
     const img2 = new Blocks.Image(bakgrunnsbilde, { x: 0, y: 0, width: ipadbredde, ipadhøyde });
-    const utf2 = new Blocks.Image("bilder/utfordringSider/utf2.png", { x: 300, y: -100, width: spmbredde, height: spmlengde })
-    const fullførtpil = new Blocks.Image("bilder/utfordringSider/fullførtpil.png", { x: 550, y: 100, width: spmbredde, height: spmlengde })
+    const utf2 = new Blocks.Image("bilder/UtfordringSider/utf2.png", { x: 300, y: -100, width: spmbredde, height: spmlengde })
+    const fullførtpil = new Blocks.Image("bilder/UtfordringSider/fullførtpil.png", { x: 550, y: 100, width: spmbredde, height: spmlengde })
     new Blocks.Sound("lyder/klapp10ganger.m4a", { loop: false, auto: true })
 
     Actions.Click(fullførtpil, () => {
@@ -419,8 +419,8 @@ function alienside2() {
 
 function alienside3() {
     const img2 = new Blocks.Image(bakgrunnsbilde, { x: 0, y: 0, width: ipadbredde, ipadhøyde });
-    const utf3 = new Blocks.Image("bilder/utfordringSider/utf3.png", { x: 300, y: -100, width: spmbredde, height: spmlengde })
-    const fullførtpil = new Blocks.Image("bilder/utfordringSider/fullførtpil.png", { x: 550, y: 100, width: spmbredde, height: spmlengde })
+    const utf3 = new Blocks.Image("bilder/UtfordringSider/utf3.png", { x: 300, y: -100, width: spmbredde, height: spmlengde })
+    const fullførtpil = new Blocks.Image("bilder/UtfordringSider/fullførtpil.png", { x: 550, y: 100, width: spmbredde, height: spmlengde })
     new Blocks.Sound("lyder/gjemdere.m4a", { loop: false, auto: true })
 
     Actions.Click(fullførtpil, () => {
@@ -430,8 +430,8 @@ function alienside3() {
 
 function alienside4() {
     const img2 = new Blocks.Image(bakgrunnsbilde, { x: 0, y: 0, width: ipadbredde, ipadhøyde });
-    const utf4 = new Blocks.Image("bilder/utfordringSider/utf4.png", { x: 300, y: -100, width: spmbredde, height: spmlengde })
-    const fullførtpil = new Blocks.Image("bilder/utfordringSider/fullførtpil.png", { x: 550, y: 100, width: spmbredde, height: spmlengde })
+    const utf4 = new Blocks.Image("bilder/UtfordringSider/utf4.png", { x: 300, y: -100, width: spmbredde, height: spmlengde })
+    const fullførtpil = new Blocks.Image("bilder/UtfordringSider/fullførtpil.png", { x: 550, y: 100, width: spmbredde, height: spmlengde })
     new Blocks.Sound("lyder/tramp.m4a", { loop: false, auto: true })
 
     Actions.Click(fullførtpil, () => {
@@ -441,8 +441,8 @@ function alienside4() {
 
 function alienside5() {
     const img2 = new Blocks.Image(bakgrunnsbilde, { x: 0, y: 0, width: ipadbredde, ipadhøyde });
-    const utf5 = new Blocks.Image("bilder/utfordringSider/utf5.png", { x: 300, y: -100, width: spmbredde, height: spmlengde })
-    const fullførtpil = new Blocks.Image("bilder/utfordringSider/fullførtpil.png", { x: 550, y: 100, width: spmbredde, height: spmlengde })
+    const utf5 = new Blocks.Image("bilder/UtfordringSider/utf5.png", { x: 300, y: -100, width: spmbredde, height: spmlengde })
+    const fullførtpil = new Blocks.Image("bilder/UtfordringSider/fullførtpil.png", { x: 550, y: 100, width: spmbredde, height: spmlengde })
     new Blocks.Sound("lyder/holdhender.m4a", { loop: false, auto: true })
 
     Actions.Click(fullførtpil, () => {
@@ -452,8 +452,8 @@ function alienside5() {
 
 function alienside6() {
     const img2 = new Blocks.Image(bakgrunnsbilde, { x: 0, y: 0, width: ipadbredde, ipadhøyde });
-    const utf6 = new Blocks.Image("bilder/utfordringSider/utf6.png", { x: 300, y: -100, width: spmbredde, height: spmlengde })
-    const fullførtpil = new Blocks.Image("bilder/utfordringSider/fullførtpil.png", { x: 550, y: 100, width: spmbredde, height: spmlengde })
+    const utf6 = new Blocks.Image("bilder/UtfordringSider/utf6.png", { x: 300, y: -100, width: spmbredde, height: spmlengde })
+    const fullførtpil = new Blocks.Image("bilder/UtfordringSider/fullførtpil.png", { x: 550, y: 100, width: spmbredde, height: spmlengde })
     new Blocks.Sound("lyder/gåtilbake.m4a", { loop: false, auto: true })
 
     Actions.Click(fullførtpil, () => {
@@ -463,8 +463,8 @@ function alienside6() {
 
 function alienside7() {
     const img2 = new Blocks.Image(bakgrunnsbilde, { x: 0, y: 0, width: ipadbredde, ipadhøyde });
-    const utf7 = new Blocks.Image("bilder/utfordringSider/utf7.png", { x: 300, y: -100, width: spmbredde, height: spmlengde })
-    const fullførtpil = new Blocks.Image("bilder/utfordringSider/fullførtpil.png", { x: 550, y: 100, width: spmbredde, height: spmlengde })
+    const utf7 = new Blocks.Image("bilder/UtfordringSider/utf7.png", { x: 300, y: -100, width: spmbredde, height: spmlengde })
+    const fullførtpil = new Blocks.Image("bilder/UtfordringSider/fullførtpil.png", { x: 550, y: 100, width: spmbredde, height: spmlengde })
     new Blocks.Sound("lyder/hendeneiværet.m4a", { loop: false, auto: true })
 
     Actions.Click(fullførtpil, () => {
@@ -474,8 +474,8 @@ function alienside7() {
 
 function alienside8() {
     const img2 = new Blocks.Image(bakgrunnsbilde, { x: 0, y: 0, width: ipadbredde, ipadhøyde });
-    const utf8 = new Blocks.Image("bilder/utfordringSider/utf8.png", { x: 300, y: -100, width: spmbredde, height: spmlengde })
-    const fullførtpil = new Blocks.Image("bilder/utfordringSider/fullførtpil.png", { x: 550, y: 100, width: spmbredde, height: spmlengde })
+    const utf8 = new Blocks.Image("bilder/UtfordringSider/utf8.png", { x: 300, y: -100, width: spmbredde, height: spmlengde })
+    const fullførtpil = new Blocks.Image("bilder/UtfordringSider/fullførtpil.png", { x: 550, y: 100, width: spmbredde, height: spmlengde })
     new Blocks.Sound("lyder/ledigkrater.m4a", { loop: false, auto: true })
 
     Actions.Click(fullførtpil, () => {
@@ -485,8 +485,8 @@ function alienside8() {
 
 function alienside9() {
     const img2 = new Blocks.Image(bakgrunnsbilde, { x: 0, y: 0, width: ipadbredde, ipadhøyde });
-    const utf9 = new Blocks.Image("bilder/utfordringSider/utf9.png", { x: 300, y: -100, width: spmbredde, height: spmlengde })
-    const fullførtpil = new Blocks.Image("bilder/utfordringSider/fullførtpil.png", { x: 550, y: 100, width: spmbredde, height: spmlengde })
+    const utf9 = new Blocks.Image("bilder/UtfordringSider/utf9.png", { x: 300, y: -100, width: spmbredde, height: spmlengde })
+    const fullførtpil = new Blocks.Image("bilder/UtfordringSider/fullførtpil.png", { x: 550, y: 100, width: spmbredde, height: spmlengde })
     new Blocks.Sound("lyder/highfive.m4a", { loop: false, auto: true })
 
     Actions.Click(fullførtpil, () => {
@@ -496,8 +496,8 @@ function alienside9() {
 
 function alienside10() {
     const img2 = new Blocks.Image(bakgrunnsbilde, { x: 0, y: 0, width: ipadbredde, ipadhøyde });
-    const utf10 = new Blocks.Image("bilder/utfordringSider/utf10.png", { x: 300, y: -100, width: spmbredde, height: spmlengde })
-    const fullførtpil = new Blocks.Image("bilder/utfordringSider/fullførtpil.png", { x: 550, y: 100, width: spmbredde, height: spmlengde })
+    const utf10 = new Blocks.Image("bilder/UtfordringSider/utf10.png", { x: 300, y: -100, width: spmbredde, height: spmlengde })
+    const fullførtpil = new Blocks.Image("bilder/UtfordringSider/fullførtpil.png", { x: 550, y: 100, width: spmbredde, height: spmlengde })
     new Blocks.Sound("lyder/lekeromvesen.m4a", { loop: false, auto: true }) 
 
     Actions.Click(fullførtpil, () => {
@@ -506,9 +506,9 @@ function alienside10() {
 }
 function kraterside() {
     const img2 = new Blocks.Image(bakgrunnsbilde, { x: 0, y: 0, width: ipadbredde, ipadhøyde });
-    const rakettbakgrunn = new Blocks.Image("bilder/kraterSider/rakettbakgrunn.png", { x: 225, y: -100, width: 600, height: 700 })
+    const rakettbakgrunn = new Blocks.Image("bilder/KraterSider/rakettbakgrunn.png", { x: 225, y: -100, width: 600, height: 700 })
     const kraterastronaut = new Blocks.Image("bilder/KraterSider/kraterastronaut.png", { x: 600, y: 50, width: 650, height: 450 });
-    const fullførtpil = new Blocks.Image("bilder/utfordringSider/fullførtpil.png", { x: 550, y: 100, width: spmbredde, height: spmlengde })
+    const fullførtpil = new Blocks.Image("bilder/UtfordringSider/fullførtpil.png", { x: 550, y: 100, width: spmbredde, height: spmlengde })
     const rakettdel1 = new Blocks.Image("bilder/KraterSider/rakettdel1.png", { x: 350, y: 0, width: spmbredde, height: spmlengde })
     new Blocks.Sound("lyder/dennetrengervi.m4a", { loop: false, auto: true })
     Actions.Click(fullførtpil, () => {
@@ -518,9 +518,9 @@ function kraterside() {
 
 function kraterside2() {
     const img2 = new Blocks.Image(bakgrunnsbilde, { x: 0, y: 0, width: ipadbredde, ipadhøyde });
-    const rakettbakgrunn = new Blocks.Image("bilder/kraterSider/rakettbakgrunn.png", { x: 225, y: -100, width: 600, height: 700 })
+    const rakettbakgrunn = new Blocks.Image("bilder/KraterSider/rakettbakgrunn.png", { x: 225, y: -100, width: 600, height: 700 })
     const kraterastronaut = new Blocks.Image("bilder/KraterSider/kraterastronaut.png", { x: 600, y: 50, width: 650, height: 450 });
-    const fullførtpil = new Blocks.Image("bilder/utfordringSider/fullførtpil.png", { x: 550, y: 100, width: spmbredde, height: spmlengde })
+    const fullførtpil = new Blocks.Image("bilder/UtfordringSider/fullførtpil.png", { x: 550, y: 100, width: spmbredde, height: spmlengde })
     const rakettdel1 = new Blocks.Image("bilder/KraterSider/rakettdel1.png", { x: 350, y: 0, width: spmbredde, height: spmlengde })
     new Blocks.Sound("lyder/fantendel.m4a", { loop: false, auto: true })
     Actions.Click(fullførtpil, () => {
@@ -530,9 +530,9 @@ function kraterside2() {
 
 function kraterside3() {
     const img2 = new Blocks.Image(bakgrunnsbilde, { x: 0, y: 0, width: ipadbredde, ipadhøyde });
-    const rakettbakgrunn = new Blocks.Image("bilder/kraterSider/rakettbakgrunn.png", { x: 225, y: -100, width: 600, height: 700 })
+    const rakettbakgrunn = new Blocks.Image("bilder/KraterSider/rakettbakgrunn.png", { x: 225, y: -100, width: 600, height: 700 })
     const kraterastronaut = new Blocks.Image("bilder/KraterSider/kraterastronaut.png", { x: 600, y: 50, width: 650, height: 450 });
-    const fullførtpil = new Blocks.Image("bilder/utfordringSider/fullførtpil.png", { x: 550, y: 100, width: spmbredde, height: spmlengde })
+    const fullførtpil = new Blocks.Image("bilder/UtfordringSider/fullførtpil.png", { x: 550, y: 100, width: spmbredde, height: spmlengde })
     const rakettdel2 = new Blocks.Image("bilder/KraterSider/rakettdel2.png", { x: 325, y: 0, width: 400, height: 500 })
     new Blocks.Sound("lyder/dennetrengervi.m4a", { loop: false, auto: true })
     Actions.Click(fullførtpil, () => {
@@ -542,9 +542,9 @@ function kraterside3() {
 
 function kraterside4() {
     const img2 = new Blocks.Image(bakgrunnsbilde, { x: 0, y: 0, width: ipadbredde, ipadhøyde });
-    const rakettbakgrunn = new Blocks.Image("bilder/kraterSider/rakettbakgrunn.png", { x: 225, y: -100, width: 600, height: 700 })
+    const rakettbakgrunn = new Blocks.Image("bilder/KraterSider/rakettbakgrunn.png", { x: 225, y: -100, width: 600, height: 700 })
     const kraterastronaut = new Blocks.Image("bilder/KraterSider/kraterastronaut.png", { x: 600, y: 50, width: 650, height: 450 });
-    const fullførtpil = new Blocks.Image("bilder/utfordringSider/fullførtpil.png", { x: 550, y: 100, width: spmbredde, height: spmlengde })
+    const fullførtpil = new Blocks.Image("bilder/UtfordringSider/fullførtpil.png", { x: 550, y: 100, width: spmbredde, height: spmlengde })
     const rakettdel2 = new Blocks.Image("bilder/KraterSider/rakettdel2.png", { x: 325, y: 0, width: 400, height: 500 })
     new Blocks.Sound("lyder/fantendel.m4a", { loop: false, auto: true })
     Actions.Click(fullførtpil, () => {
@@ -554,9 +554,9 @@ function kraterside4() {
 
 function kraterside5() {
     const img2 = new Blocks.Image(bakgrunnsbilde, { x: 0, y: 0, width: ipadbredde, ipadhøyde });
-    const rakettbakgrunn = new Blocks.Image("bilder/kraterSider/rakettbakgrunn.png", { x: 225, y: -100, width: 600, height: 700 })
+    const rakettbakgrunn = new Blocks.Image("bilder/KraterSider/rakettbakgrunn.png", { x: 225, y: -100, width: 600, height: 700 })
     const kraterastronaut = new Blocks.Image("bilder/KraterSider/kraterastronaut.png", { x: 600, y: 50, width: 650, height: 450 });
-    const fullførtpil = new Blocks.Image("bilder/utfordringSider/fullførtpil.png", { x: 550, y: 100, width: spmbredde, height: spmlengde })
+    const fullførtpil = new Blocks.Image("bilder/UtfordringSider/fullførtpil.png", { x: 550, y: 100, width: spmbredde, height: spmlengde })
     const rakettdel3 = new Blocks.Image("bilder/KraterSider/rakettdel3.png", { x: 275, y: -100, width: spmbredde, height: spmlengde })
     new Blocks.Sound("lyder/dennetrengervi.m4a", { loop: false, auto: true })
     Actions.Click(fullførtpil, () => {
@@ -566,9 +566,9 @@ function kraterside5() {
 
 function kraterside6() {
     const img2 = new Blocks.Image(bakgrunnsbilde, { x: 0, y: 0, width: ipadbredde, ipadhøyde });
-    const rakettbakgrunn = new Blocks.Image("bilder/kraterSider/rakettbakgrunn.png", { x: 225, y: -100, width: 600, height: 700 })
+    const rakettbakgrunn = new Blocks.Image("bilder/KraterSider/rakettbakgrunn.png", { x: 225, y: -100, width: 600, height: 700 })
     const kraterastronaut = new Blocks.Image("bilder/KraterSider/kraterastronaut.png", { x: 600, y: 50, width: 650, height: 450 });
-    const fullførtpil = new Blocks.Image("bilder/utfordringSider/fullførtpil.png", { x: 550, y: 100, width: spmbredde, height: spmlengde })
+    const fullførtpil = new Blocks.Image("bilder/UtfordringSider/fullførtpil.png", { x: 550, y: 100, width: spmbredde, height: spmlengde })
     const rakettdel4 = new Blocks.Image("bilder/KraterSider/rakettdel4.png", { x: 260, y: -100, width: spmbredde, height: spmlengde })
     new Blocks.Sound("lyder/fantendel.m4a", { loop: false, auto: true })
     Actions.Click(fullførtpil, () => {
@@ -578,9 +578,9 @@ function kraterside6() {
 
 function kraterside7() {
     const img2 = new Blocks.Image(bakgrunnsbilde, { x: 0, y: 0, width: ipadbredde, ipadhøyde });
-    const rakettbakgrunn = new Blocks.Image("bilder/kraterSider/rakettbakgrunn.png", { x: 225, y: -100, width: 600, height: 700 })
+    const rakettbakgrunn = new Blocks.Image("bilder/KraterSider/rakettbakgrunn.png", { x: 225, y: -100, width: 600, height: 700 })
     const kraterastronaut = new Blocks.Image("bilder/KraterSider/kraterastronaut.png", { x: 600, y: 50, width: 650, height: 450 });
-    const fullførtpil = new Blocks.Image("bilder/utfordringSider/fullførtpil.png", { x: 550, y: 100, width: spmbredde, height: spmlengde })
+    const fullførtpil = new Blocks.Image("bilder/UtfordringSider/fullførtpil.png", { x: 550, y: 100, width: spmbredde, height: spmlengde })
     const rakettdel5 = new Blocks.Image("bilder/KraterSider/rakettdel5.png", { x: 315, y: -50, width: 400, height: 500 })
     new Blocks.Sound("lyder/dennetrengervi.m4a", { loop: false, auto: true })
     Actions.Click(fullførtpil, () => {
@@ -590,9 +590,9 @@ function kraterside7() {
 
 function kraterside8() {
     const img2 = new Blocks.Image(bakgrunnsbilde, { x: 0, y: 0, width: ipadbredde, ipadhøyde });
-    const rakettbakgrunn = new Blocks.Image("bilder/kraterSider/rakettbakgrunn.png", { x: 225, y: -100, width: 600, height: 700 })
+    const rakettbakgrunn = new Blocks.Image("bilder/KraterSider/rakettbakgrunn.png", { x: 225, y: -100, width: 600, height: 700 })
     const kraterastronaut = new Blocks.Image("bilder/KraterSider/kraterastronaut.png", { x: 600, y: 50, width: 650, height: 450 });
-    const fullførtpil = new Blocks.Image("bilder/utfordringSider/fullførtpil.png", { x: 550, y: 100, width: spmbredde, height: spmlengde })
+    const fullførtpil = new Blocks.Image("bilder/UtfordringSider/fullførtpil.png", { x: 550, y: 100, width: spmbredde, height: spmlengde })
     const rakettdel6 = new Blocks.Image("bilder/KraterSider/rakettdel6.png", { x: 270, y: -75, width: spmbredde, height: spmlengde })
     new Blocks.Sound("lyder/fantendel.m4a", { loop: false, auto: true })
     Actions.Click(fullførtpil, () => {
@@ -602,9 +602,9 @@ function kraterside8() {
 
 function kraterside9() {
     const img2 = new Blocks.Image(bakgrunnsbilde, { x: 0, y: 0, width: ipadbredde, ipadhøyde });
-    const rakettbakgrunn = new Blocks.Image("bilder/kraterSider/rakettbakgrunn.png", { x: 225, y: -100, width: 600, height: 700 })
+    const rakettbakgrunn = new Blocks.Image("bilder/KraterSider/rakettbakgrunn.png", { x: 225, y: -100, width: 600, height: 700 })
     const kraterastronaut = new Blocks.Image("bilder/KraterSider/kraterastronaut.png", { x: 600, y: 50, width: 650, height: 450 });
-    const fullførtpil = new Blocks.Image("bilder/utfordringSider/fullførtpil.png", { x: 550, y: 100, width: spmbredde, height: spmlengde })
+    const fullførtpil = new Blocks.Image("bilder/UtfordringSider/fullførtpil.png", { x: 550, y: 100, width: spmbredde, height: spmlengde })
     const rakettdel7 = new Blocks.Image("bilder/KraterSider/rakettdel7.png", { x: 375, y: 75, width: 300, height: 400 })
     new Blocks.Sound("lyder/dennetrengervi.m4a", { loop: false, auto: true })
     Actions.Click(fullførtpil, () => {
@@ -614,9 +614,9 @@ function kraterside9() {
 
 function kraterside10() {
     const img2 = new Blocks.Image(bakgrunnsbilde, { x: 0, y: 0, width: ipadbredde, ipadhøyde });
-    const rakettbakgrunn = new Blocks.Image("bilder/kraterSider/rakettbakgrunn.png", { x: 225, y: -100, width: 600, height: 700 })
+    const rakettbakgrunn = new Blocks.Image("bilder/KraterSider/rakettbakgrunn.png", { x: 225, y: -100, width: 600, height: 700 })
     const kraterastronaut = new Blocks.Image("bilder/KraterSider/kraterastronaut.png", { x: 600, y: 50, width: 650, height: 450 });
-    const fullførtpil = new Blocks.Image("bilder/utfordringSider/fullførtpil.png", { x: 550, y: 100, width: spmbredde, height: spmlengde })
+    const fullførtpil = new Blocks.Image("bilder/UtfordringSider/fullførtpil.png", { x: 550, y: 100, width: spmbredde, height: spmlengde })
     const rakettdel8 = new Blocks.Image("bilder/KraterSider/rakettdel8.png", { x: 280, y: -100, width: spmbredde, height: spmlengde })
     new Blocks.Sound("lyder/fantendel.m4a", { loop: false, auto: true })
     Actions.Click(fullførtpil, () => {
@@ -626,9 +626,9 @@ function kraterside10() {
 
 function kraterside11() {
     const img2 = new Blocks.Image(bakgrunnsbilde, { x: 0, y: 0, width: ipadbredde, ipadhøyde });
-    const rakettbakgrunn = new Blocks.Image("bilder/kraterSider/rakettbakgrunn.png", { x: 225, y: -100, width: 600, height: 700 })
+    const rakettbakgrunn = new Blocks.Image("bilder/KraterSider/rakettbakgrunn.png", { x: 225, y: -100, width: 600, height: 700 })
     const kraterastronaut = new Blocks.Image("bilder/KraterSider/kraterastronaut.png", { x: 600, y: 50, width: 650, height: 450 });
-    const fullførtpil = new Blocks.Image("bilder/utfordringSider/fullførtpil.png", { x: 550, y: 100, width: spmbredde, height: spmlengde })
+    const fullførtpil = new Blocks.Image("bilder/UtfordringSider/fullførtpil.png", { x: 550, y: 100, width: spmbredde, height: spmlengde })
     const rakettdel8 = new Blocks.Image("bilder/KraterSider/rakettdel8.png", { x: 280, y: -100, width: spmbredde, height: spmlengde })
     new Blocks.Sound("lyder/dennetrengervi.m4a", { loop: false, auto: true })
     Actions.Click(fullførtpil, () => {
@@ -638,9 +638,9 @@ function kraterside11() {
 
 function kraterside12() {
     const img2 = new Blocks.Image(bakgrunnsbilde, { x: 0, y: 0, width: ipadbredde, ipadhøyde });
-    const rakettbakgrunn = new Blocks.Image("bilder/kraterSider/rakettbakgrunn.png", { x: 225, y: -100, width: 600, height: 700 })
+    const rakettbakgrunn = new Blocks.Image("bilder/KraterSider/rakettbakgrunn.png", { x: 225, y: -100, width: 600, height: 700 })
     const kraterastronaut = new Blocks.Image("bilder/KraterSider/kraterastronaut.png", { x: 600, y: 50, width: 650, height: 450 });
-    const fullførtpil = new Blocks.Image("bilder/utfordringSider/fullførtpil.png", { x: 550, y: 100, width: spmbredde, height: spmlengde })
+    const fullførtpil = new Blocks.Image("bilder/UtfordringSider/fullførtpil.png", { x: 550, y: 100, width: spmbredde, height: spmlengde })
     const rakettdel9 = new Blocks.Image("bilder/KraterSider/rakettdel9.png", { x: 280, y: -50, width: spmbredde, height: spmlengde })
     new Blocks.Sound("lyder/dennetrengervi.m4a", { loop: false, auto: true })
     Actions.Click(fullførtpil, () => {
