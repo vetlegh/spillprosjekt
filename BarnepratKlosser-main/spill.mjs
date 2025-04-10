@@ -27,6 +27,9 @@ const flagg = "bilder/flagg.png"
 const alienkort = "bilder/alienkort.png";
 const kraterkort = "bilder/kraterkort.png";
 const spørsmålskort = "bilder/spørsmålskort.png";
+const bruktespm = []
+const brukteutf = []
+const bruktekrater = []
 const ipadbredde = 1080;
 const ipadhøyde = 818;
 const spmSider = [spørsmålsside, spørsmålsside2, spørsmålsside3, spørsmålsside4, spørsmålsside5, spørsmålsside6, spørsmålsside7, spørsmålsside8, spørsmålsside9, spørsmålsside10, spørsmålsside11, spørsmålsside12, spørsmålsside13, spørsmålsside14, spørsmålsside15, spørsmålsside16, spørsmålsside17, spørsmålsside18, spørsmålsside19, spørsmålsside20, spørsmålsside21, spørsmålsside22, spørsmålsside23]
@@ -40,7 +43,14 @@ function randomSpmSide() {
     const side = spmSider[randomNumber];
     GaaTil(side);
 
+    bruktespm.push(side);
     spmSider.splice(randomNumber, 1);
+    if (spmSider.length===0){
+        bruktespm.forEach(kort=>spmSider.push(kort))
+        while(bruktespm.length> 0){
+            bruktespm.pop();
+        }
+        }
 
 }
 
@@ -49,8 +59,14 @@ function randomUtfordringSide() {
     const side = utfordringSider[randomNumber];
     GaaTil(side);
 
+    brukteutf.push(side);
     utfordringSider.splice(randomNumber, 1);
-
+    if (utfordringSider.length===0){
+        brukteutf.forEach(kort=>utfordringSider.push(kort))
+        while(brukteutf.length> 0){
+            brukteutf.pop();
+        }
+    }
 }
 
 function randomKraterSide() {
@@ -70,10 +86,15 @@ function bildeeks() {
     const astronaut_2 = new Blocks.Image(astronaut2, { x: 0, y: 50, width: 300, height: 300 });
     const flagg1 = new Blocks.Image(flagg, { x: 750, y: 450, width: 300, height: 200 });
     const spirri = new Blocks.Image("bilder/spirri.png", { x: 700, y: 344, width: 200, height: 300 });
+    const volumknapp = new Blocks.Image("bilder/volumknapp.png", { x: 900, y: 50, width: 100, height: 75 })
 
     new Blocks.Text("Ånei! Jeg krasjlandet på månen, og romskipet ble ødelagt. Nå trenger jeg deres hjelp til å samle delene til romskipet og fikse det. Men pass dere for romvesenet Spirri! Han vil nemlig også ha delene til romskipet. ", { style: "hvitTekst", x: 300, y: 100, width: 500, height: 200 });
     const stjerne = new Blocks.Image("bilder/stjerne.png", { x: 325, y: 200, width: 400, height: 500 });
-    new Blocks.Sound("lyder/intro.m4a", { loop: false, auto: true })
+    const intro = new Blocks.Sound("lyder/intro.m4a", { loop: false, auto: false })
+
+Actions.Click(volumknapp, () => {
+    intro.start();
+})
 
     Actions.Click(stjerne, () => {
         GaaTil(spillside);
